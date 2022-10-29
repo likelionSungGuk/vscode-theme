@@ -1,7 +1,7 @@
 {
-  "name": "kscode",
-  "homepage": "http://syoung125.github.io",
-  "version": "0.1.0",
+  "name": "vscode-liokelionsungguk",
+  "homepage": "http://likelionSungGuk.github.io",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "prettier": "prettier --write **/*.{ts,tsx}",
@@ -19,10 +19,10 @@
     "gray-matter": "^4.0.3",
     "marked": "^2.0.6",
     "next": "^11.0.1",
-    "prismjs": "^1.25.0",
+    "prismjs": "^1.29.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "styled-components": "^5.3.0"
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@types/gtag.js": "^0.0.8",

@@ -1,7 +1,7 @@
 import { ReactNode, useRef, useState, KeyboardEvent } from "react";
 import styled from "styled-components";
 
-import { BLUE, GRAY_300 } from "@src/constants/palette";
+import { BLUE, GRAY_100, GRAY_300, GRAY_600 } from "@src/constants/palette";
 
 import ActivityBar, { ACTION_ITEMS } from "./activity-bar";
 import SideBar from "./side-bar";
@@ -87,5 +87,5 @@ const Footer = styled.footer`
   flex-shrink: 0;
 
   height: 1.6rem;
-  background-color: ${BLUE};
+  background-color: ${GRAY_600};
 `;

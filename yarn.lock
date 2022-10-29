@@ -607,19 +607,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/is-prop-valid@npm:^0.8.8":
-  version: 0.8.8
-  resolution: "@emotion/is-prop-valid@npm:0.8.8"
+"@emotion/is-prop-valid@npm:^1.1.0":
+  version: 1.2.0
+  resolution: "@emotion/is-prop-valid@npm:1.2.0"
   dependencies:
-    "@emotion/memoize": 0.7.4
-  checksum: bb7ec6d48c572c540e24e47cc94fc2f8dec2d6a342ae97bc9c8b6388d9b8d283862672172a1bb62d335c02662afe6291e10c71e9b8642664a8b43416cdceffac
+    "@emotion/memoize": ^0.8.0
+  checksum: cc7a19850a4c5b24f1514665289442c8c641709e6f7711067ad550e05df331da0692a16148e85eda6f47e31b3261b64d74c5e25194d053223be16231f969d633
   languageName: node
   linkType: hard
 
-"@emotion/memoize@npm:0.7.4":
-  version: 0.7.4
-  resolution: "@emotion/memoize@npm:0.7.4"
-  checksum: 4e3920d4ec95995657a37beb43d3f4b7d89fed6caa2b173a4c04d10482d089d5c3ea50bbc96618d918b020f26ed6e9c4026bbd45433566576c1f7b056c3271dc
+"@emotion/memoize@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "@emotion/memoize@npm:0.8.0"
+  checksum: c87bb110b829edd8e1c13b90a6bc37cebc39af29c7599a1e66a48e06f9bec43e8e53495ba86278cc52e7589549492c8dfdc81d19f4fdec0cee6ba13d2ad2c928
   languageName: node
   linkType: hard
 
@@ -5341,44 +5341,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"kscode@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "kscode@workspace:."
-  dependencies:
-    "@next/env": ^12.0.7
-    "@types/gtag.js": ^0.0.8
-    "@types/jest": ^27.0.1
-    "@types/marked": ^2.0.3
-    "@types/node": ^16.11.11
-    "@types/prismjs": ^1.16.6
-    "@types/react": 17.0.8
-    "@types/styled-components": ^5.1.9
-    "@types/webpack-env": ^1.16.0
-    babel-plugin-transform-define: ^2.0.0
-    dotenv: ^16.0.0
-    encoding: ^0.1.13
-    eslint: ^7.32.0
-    eslint-config-next: ^11.0.1
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-react: ^7.24.0
-    gh-pages: ^3.2.0
-    gray-matter: ^4.0.3
-    jest: ^27.0.6
-    marked: ^2.0.6
-    next: ^11.0.1
-    prettier: ^2.3.2
-    prismjs: ^1.25.0
-    raw-loader: ^4.0.2
-    react: 17.0.2
-    react-dom: 17.0.2
-    react-is: ^17.0.2
-    styled-components: ^5.3.0
-    ts-jest: ^27.1.3
-    typescript: 4.3.2
-    webpack: ^5.67.0
-  languageName: unknown
-  linkType: soft
-
 "language-subtag-registry@npm:~0.3.2":
   version: 0.3.21
   resolution: "language-subtag-registry@npm:0.3.21"
@@ -6587,10 +6549,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prismjs@npm:^1.25.0":
-  version: 1.25.0
-  resolution: "prismjs@npm:1.25.0"
-  checksum: 04d8eae9d1b26b76c350bc65621584c8f8cab80ace7da3953f8aef2f9a8dd4b4f71c1d15bc5c67f126ddc90cd5af613919dc1340589a6c57355bed86fa3ac010
+"prismjs@npm:^1.29.0":
+  version: 1.29.0
+  resolution: "prismjs@npm:1.29.0"
+  checksum: 007a8869d4456ff8049dc59404e32d5666a07d99c3b0e30a18bd3b7676dfa07d1daae9d0f407f20983865fd8da56de91d09cb08e6aa61f5bc420a27c0beeaf93
   languageName: node
   linkType: hard
 
@@ -7638,13 +7600,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "styled-components@npm:5.3.0"
+"styled-components@npm:^5.3.6":
+  version: 5.3.6
+  resolution: "styled-components@npm:5.3.6"
   dependencies:
     "@babel/helper-module-imports": ^7.0.0
     "@babel/traverse": ^7.4.5
-    "@emotion/is-prop-valid": ^0.8.8
+    "@emotion/is-prop-valid": ^1.1.0
     "@emotion/stylis": ^0.8.4
     "@emotion/unitless": ^0.7.4
     babel-plugin-styled-components: ">= 1.12.0"
@@ -7656,7 +7618,7 @@ __metadata:
     react: ">= 16.8.0"
     react-dom: ">= 16.8.0"
     react-is: ">= 16.8.0"
-  checksum: 19792fc00da531a083963c3679429dc739e03cb1ca7af2adf0317b25fcaf23655b8f37f8595a210be26003aa5a143003c6dc66ef80c545da85447277a4985bd1
+  checksum: 68eac1e451be81d66739cf86de8ec9e72f46e7584aa359271761a2437468210bd7cf0a864281fc97dab08c32b35e6bf7513dc8b4104ed6b196cf8d65674dd289
   languageName: node
   linkType: hard
 
@@ -8262,6 +8224,44 @@ __metadata:
   checksum: 10a1c50aab54ff8b4c9042c15fc64aefccce8d2fb90c0640403242db0ee7fb269f9b102bdb69cfb435d7ef3180d61fd4fb004a043a12709abaf9056cfd7e039d
   languageName: node
   linkType: hard
+
+"vscode-liokelionsungguk@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "vscode-liokelionsungguk@workspace:."
+  dependencies:
+    "@next/env": ^12.0.7
+    "@types/gtag.js": ^0.0.8
+    "@types/jest": ^27.0.1
+    "@types/marked": ^2.0.3
+    "@types/node": ^16.11.11
+    "@types/prismjs": ^1.16.6
+    "@types/react": 17.0.8
+    "@types/styled-components": ^5.1.9
+    "@types/webpack-env": ^1.16.0
+    babel-plugin-transform-define: ^2.0.0
+    dotenv: ^16.0.0
+    encoding: ^0.1.13
+    eslint: ^7.32.0
+    eslint-config-next: ^11.0.1
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-react: ^7.24.0
+    gh-pages: ^3.2.0
+    gray-matter: ^4.0.3
+    jest: ^27.0.6
+    marked: ^2.0.6
+    next: ^11.0.1
+    prettier: ^2.3.2
+    prismjs: ^1.29.0
+    raw-loader: ^4.0.2
+    react: 17.0.2
+    react-dom: 17.0.2
+    react-is: ^17.0.2
+    styled-components: ^5.3.6
+    ts-jest: ^27.1.3
+    typescript: 4.3.2
+    webpack: ^5.67.0
+  languageName: unknown
+  linkType: soft
 
 "w3c-hr-time@npm:^1.0.2":
   version: 1.0.2

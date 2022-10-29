@@ -5,6 +5,7 @@ import {
   LIGHT_GRAY_200,
   LIGHT_GRAY_300,
   LIGHT_GRAY_400,
+  PURPLE_DARK,
   WHITE,
 } from "@src/constants/palette";
 
@@ -20,6 +21,7 @@ export const light: Readonly<ColorTheme> = Object.freeze({
     $gray400: LIGHT_GRAY_200,
     $gray500: LIGHT_GRAY_100,
     $gray600: WHITE,
+    $tagFontColor: PURPLE_DARK
   },
   semanticScheme: {
     sideBarBg: LIGHT_GRAY_100,

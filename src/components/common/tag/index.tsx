@@ -2,8 +2,6 @@ import { ReactNode, AnchorHTMLAttributes } from "react";
 import styled from "styled-components";
 import Link from "next/link";
 
-import { GREEN } from "@src/constants/palette";
-
 type TagProps = {
   children: ReactNode;
   count?: number;
@@ -40,7 +38,7 @@ const Wrapper = styled.a<Pick<TagProps, "clickable">>`
   border-radius: 0.8rem;
 
   font-size: 1.2rem;
-  color: ${GREEN};
+  color: ${({ theme }) => theme.colors.scheme.$tagFontColor};;
   background-color: ${({ theme }) => theme.colors.scheme.$gray300};
 
   ${(p) =>

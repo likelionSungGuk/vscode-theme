@@ -30,7 +30,7 @@ export default function PostTemplate({ post }: PostTemplateProps) {
           <Title>{title}</Title>
           <Bio>
             <Avatar src="/images/avatar.png" />
-            <Author>Seoyoung Ko</Author>
+            <Author>likelionSungGuk</Author>
             <Date>{date}</Date>
           </Bio>
         </Header>

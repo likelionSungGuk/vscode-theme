@@ -5,8 +5,8 @@ import Style from "./index.style";
 export default function Welcome() {
   return (
     <Style.Wrapper>
-      <Style.Title>{`Welcome to\nSeoyoung's Tech Blog`}</Style.Title>
-      <Waves />
+      <Style.Title>{`Daily improving \n Frontend 개발자 조성국입니다.`}</Style.Title>
+      {/* <Waves /> */}
     </Style.Wrapper>
   );
 }

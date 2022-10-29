@@ -10,7 +10,7 @@ import {
   AccountIcon,
   SettingsGearIcon,
 } from "@src/assets/icons";
-import { GRAY_400 } from "@src/constants/palette";
+import { DRACULAR_BACKGROUND_LIGHT_DARK, GRAY_400 } from "@src/constants/palette";
 import ThemeSwitcher from "@src/components/common/theme-switcher";
 
 import ExplorerSection from "../explorer-section";
@@ -19,7 +19,7 @@ import SearchSection from "../search-section";
 
 import ActionItem from "./action-item";
 
-const GITHUB_URL = "https://github.com/syoung125";
+const GITHUB_URL = "https://github.com/likelionSungGuk";
 
 export const ACTIVITY_BAR_WIDTH = "3rem";
 
@@ -139,7 +139,7 @@ const Wrapper = styled.nav`
 
   width: ${ACTIVITY_BAR_WIDTH};
 
-  background-color: ${GRAY_400};
+  background-color: ${DRACULAR_BACKGROUND_LIGHT_DARK};
 `;
 
 const Ul = styled.ul`

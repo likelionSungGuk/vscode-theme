@@ -6,6 +6,9 @@ import {
   GRAY_500,
   GRAY_600,
   WHITE,
+  DRACULAR_BACKGROUND_DEEP_DARK,
+  PURPLE_DARK,
+  GREEN
 } from "@src/constants/palette";
 
 import { ColorTheme } from "./types";
@@ -20,9 +23,10 @@ export const dark: Readonly<ColorTheme> = Object.freeze({
     $gray400: GRAY_400,
     $gray500: GRAY_500,
     $gray600: GRAY_600,
+    $tagFontColor: GREEN
   },
   semanticScheme: {
-    sideBarBg: GRAY_500,
-    mainBg: GRAY_600,
+    sideBarBg: PURPLE_DARK,
+    mainBg: DRACULAR_BACKGROUND_DEEP_DARK,
   },
 });

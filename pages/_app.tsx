@@ -38,8 +38,8 @@ function MyApp({ Component, pageProps, posts }: MyAppProps) {
   return (
     <>
       <Head>
-        <title>{`KSCode | Seoyoung's Tech Blog`}</title>
-        <meta name="description" content="Ko Seoyoung Tech Blog" />
+        <title>{`Frontend Dev | likelionSungGuk Blog`}</title>
+        <meta name="description" content="Frontend Dev likelionSungGuk Blog" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ThemeContextProvider defaultTheme="dark">

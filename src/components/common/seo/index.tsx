@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const BASE_URL = "https://syoung125.github.io/";
+const BASE_URL = "https://likelionSungGuk.github.io/";
 
 type SEOProps = {
   canonicalPath: string;
@@ -14,7 +14,7 @@ type SEOProps = {
 function SEO({
   canonicalPath,
   title,
-  description = "Seoyoung's Tech Blog",
+  description = "Frontend Dev likelionSungGuk Blog",
   imageUrl = "",
   type = "website",
   jsonld = {},
@@ -72,7 +72,7 @@ export const getBlogJSONLD = ({
   "@type": "BlogPosting",
   headline: title,
   image: imageUrl,
-  editor: "Ko Seoyoung",
+  editor: "likelionSungGuk",
   url: BASE_URL + path,
   datePublished,
   dateCreated: datePublished,
@@ -80,7 +80,7 @@ export const getBlogJSONLD = ({
   description: description,
   author: {
     "@type": "Person",
-    name: "Ko Seoyoung",
+    name: "likelionSungGuk",
   },
 });
 

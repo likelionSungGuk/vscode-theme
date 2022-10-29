@@ -30,7 +30,7 @@ export default function ExplorerSection() {
           closePost={closePost}
         />
       </AccordionSection>
-      <AccordionSection title="KSCODE" defaultExpanded>
+      <AccordionSection title="BLOG POSTS" defaultExpanded>
         <FileTree
           posts={posts}
           currentPostId={currentPostId}

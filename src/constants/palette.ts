@@ -1,10 +1,16 @@
 export const WHITE = "#FFF";
 export const BLACK = "#000";
 
-export const BLUE = "#007fd4";
-export const PINK = "#ff56ac";
-export const ORANGE = "#ff711f";
-export const GREEN = "#7ec699";
+export const DRACULAR_BACKGROUND_LIGHT_DARK = "#383a59";
+export const DRACULAR_BACKGROUND_DEEP_DARK = "#282a36";
+
+export const YELLOW = "#F1FA8C";
+export const BLUE = "#8BE9FD";
+export const PINK = "#FF79C6";
+export const ORANGE = "#FFB86C";
+export const GREEN = "#3ee668";
+export const PURPLE = "#BD93F9";
+export const PURPLE_DARK = "#25253A";
 
 export const GRAY_100 = "#7a7a7a";
 export const GRAY_200 = "#505050";

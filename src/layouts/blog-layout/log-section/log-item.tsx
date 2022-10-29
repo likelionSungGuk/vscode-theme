@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { BLUE } from "@src/constants/palette";
+import { BLUE, GREEN } from "@src/constants/palette";
 import { Post } from "@src/types/post.type";
 
 export type LogItemProps = {
@@ -119,7 +119,7 @@ const Line = styled.div`
   width: 0.1rem;
   height: 100%;
 
-  background-color: ${BLUE};
+  background-color: ${GREEN};
 `;
 
 const Dot = styled.div`
@@ -132,5 +132,5 @@ const Dot = styled.div`
   height: 0.6rem;
   border-radius: 50%;
 
-  background-color: ${BLUE};
+  background-color: ${GREEN};
 `;
